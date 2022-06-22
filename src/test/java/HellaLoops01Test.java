@@ -14,7 +14,7 @@ public class HellaLoops01Test {
     @Test
     public void testGetRange1A() {
         // : Given
-        String expected = "0123456789";
+        String expected = "012345678910";
         int stop = 11;
 
         // : When
@@ -83,7 +83,7 @@ public class HellaLoops01Test {
     @Test
     public void testGetRange3B() {
         // : Given
-        String expected = "100101103104105106107108109";
+        String expected = "100101102103104105106107108109";
         int start = 100;
         int stop = 110;
 
@@ -144,7 +144,7 @@ public class HellaLoops01Test {
     @Test
     public void testGetEvenNumbers() {
         // : Given
-        String expected = "5791113151719";
+        String expected = "681012141618";
         int start = 5;
         int stop = 20;
 
@@ -158,7 +158,7 @@ public class HellaLoops01Test {
     @Test
     public void testGetOddNumbers() {
         // : Given
-        String expected = "681012141618";
+        String expected = "5791113151719";
         int start = 5;
         int stop = 20;
         int step = 5;
